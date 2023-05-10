@@ -1,7 +1,7 @@
 const Web3 = require("web3");
 
 const fs = require('fs');
-const node_url = "wss://eth-mainnet"
+const node_url = "wss:// your own rpc"
 const web3 = new Web3(node_url)
 const v3SwapTopic = '0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67'
 const WETH_USDC_contract_address = '0x88e6A0c2dDD26FEEb64F039a2c41296FcB3f5640'
