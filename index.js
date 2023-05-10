@@ -50,5 +50,5 @@ candleSeries.applyOptions({
 socket.on('KLINE',(pl)=>{
   console.log(pl);
   candleSeries.update(pl);
-  volumeSeries.update({time: pl.time, value: Math.abs(pl.volume), color: pl.volume < 0 ? '#26a69a' : '#ef5350'});
+  volumeSeries.update({time: pl.time, value: Math.abs(pl.volume), color: pl.volumeUsd > 0 ? '#26a69a' : '#ef5350'});
 });

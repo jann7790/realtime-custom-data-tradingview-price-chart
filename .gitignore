@@ -1,6 +1,6 @@
 # Logs
 logs
-price_provider*
+config.json
 *.log
 npm-debug.log*
 yarn-debug.log*
