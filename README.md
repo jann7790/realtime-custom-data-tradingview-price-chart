@@ -18,5 +18,10 @@ open the index.html in browser
 ![](chart.jpg)
 
 
+## to-do
+
+- [ ] block price impact by front-run bot
+
+
 
 this project is powered by tradinview lib, and rewrote from https://github.com/karthik947/TVChartsOwnData
